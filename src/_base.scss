@@ -4,20 +4,6 @@ $black: #111111;
 $white: #ffffff;
 $grey: #7f7f7f;
 
-// Breakpoints
-$screen-sm: 640px;
-$screen-md: 768px;
-$screen-lg: 1024px;
-$screen-xl: 1280px;
-$screen-2xl: 1536px;
-
-// Responsive
-@mixin md {
-  @media screen and (min-width: $screen-md) {
-    @content;
-  }
-}
-
 // Font Family
 $figtree: "Figtree";
 
