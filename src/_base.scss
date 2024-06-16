@@ -1,0 +1,35 @@
+// Colors
+$primary: #f4d04e;
+$black: #111111;
+$white: #ffffff;
+$grey: #7f7f7f;
+
+// Breakpoints
+$screen-sm: 640px;
+$screen-md: 768px;
+$screen-lg: 1024px;
+$screen-xl: 1280px;
+$screen-2xl: 1536px;
+
+// Responsive
+@mixin md {
+  @media screen and (min-width: $screen-md) {
+    @content;
+  }
+}
+
+// Font Family
+$figtree: "Figtree";
+
+// Font Face
+@font-face {
+  font-family: $figtree;
+  src: url(../assets/fonts/static/Figtree-SemiBold.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: $figtree;
+  src: url(../assets/fonts/static/Figtree-ExtraBold.ttf);
+  font-weight: 800;
+}

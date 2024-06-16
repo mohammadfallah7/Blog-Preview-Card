@@ -1,0 +1,24 @@
+{
+  "name": "blog-preview-card-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./src/main.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadfallah7/Blog-Preview-Card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadfallah7/Blog-Preview-Card/issues"
+  },
+  "homepage": "https://github.com/mohammadfallah7/Blog-Preview-Card#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Figtree";
+  src: url(../assets/fonts/static/Figtree-SemiBold.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url(../assets/fonts/static/Figtree-ExtraBold.ttf);
+  font-weight: 800;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*# sourceMappingURL=main.css.map */
